@@ -3,13 +3,13 @@
 <B>Compilar usando GCC</B><br>
 gcc main.c -o main -lm
 
-<B>Para rodar --freq e saber quais as palavras que aparecem em maior quantidade no arquivo.</B>
+<B>Para rodar --freq e saber quais as palavras que aparecem em maior quantidade no arquivo.</B><br>
 ./main --freq N ARQUIVO
 
-<B>Para rodar --freq-word e saber o número total de ocorrências da palavra no arquivo.</B>
+<B>Para rodar --freq-word e saber o número total de ocorrências da palavra no arquivo.</B><br>
 ./main --freq-word PALAVRA ARQUIVO
 
-<B>Para rodar --search e listar os arquivos mais expressivo para um dado termo</B>
+<B>Para rodar --search e listar os arquivos mais expressivo para um dado termo</B><br>
 ./main --search TERMO ARQUIVO [ARQUIVO ...]
 
 
