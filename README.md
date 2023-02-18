@@ -1,6 +1,6 @@
 # COMO USAR O PROGRAMA: 
 
-<B>Compilar usando GCC</B><\br>
+<B>Compilar usando GCC</B><br>
 gcc main.c -o main -lm
 
 <B>Para rodar --freq e saber quais as palavras que aparecem em maior quantidade no arquivo.</B>
