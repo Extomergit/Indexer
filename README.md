@@ -1,17 +1,16 @@
 # COMO USAR O PROGRAMA: 
 
-USANDO GCC
+<B>Compilar usando GCC</B>
+gcc main.c -o main -lm
 
-<B>gcc main.c -o main -lm</B>
-Para rodar --freq e saber quais as palavras que aparecem em maior quantidade no arquivo.
+<B>Para rodar --freq e saber quais as palavras que aparecem em maior quantidade no arquivo.</B>
+./main --freq N ARQUIVO
 
-<B>./main --freq N ARQUIVO</B>
-Para rodar --freq-word e saber o número total de ocorrências da palavra no arquivo.
+<B>Para rodar --freq-word e saber o número total de ocorrências da palavra no arquivo.</B>
+./main --freq-word PALAVRA ARQUIVO
 
-<B>./main --freq-word PALAVRA ARQUIVO</B>
-Para rodar --search e listar os arquivos mais expressivo para um dado termo
-
-<B>./main --search TERMO ARQUIVO [ARQUIVO ...]</B>
+<B>Para rodar --search e listar os arquivos mais expressivo para um dado termo</B>
+./main --search TERMO ARQUIVO [ARQUIVO ...]
 
 
 # OPÇÕES
