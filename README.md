@@ -12,6 +12,9 @@ gcc main.c -o main -lm
 <B>Para rodar --search e listar os arquivos mais expressivo para um dado termo</B><br>
 ./main --search TERMO ARQUIVO [ARQUIVO ...]
 
+<B> EXEMPLO </BR><br>
+.\main --freq 4 103.txt -> Onde 4 é o parâmetro de pesquisa e 103.txt é o arquivo que vai ser lido.
+
 
 # OPÇÕES
 
