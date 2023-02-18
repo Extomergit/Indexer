@@ -174,7 +174,7 @@ int main( int argc, char **argv ) {
 		printf("Termo %s\n", termoOriginal);
 
 		for (int i = 0; i < totalDocumentos; i++) {
-			printf("Relvancia %s  %.2f \n", listasDoc[i]->valor, listasDoc[i]->relevancia);
+			printf("Relevancia %s  %.2f \n", listasDoc[i]->valor, listasDoc[i]->relevancia);
 		}
 
 
